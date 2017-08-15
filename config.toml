@@ -12,8 +12,6 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.20"
 
 baseurl = "/"
 languageCode = "en-us"
@@ -23,6 +21,7 @@ theme = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [permalinks]
   post = "/:year/:month/:slug/"
@@ -35,7 +34,7 @@ canonifyurls = true
 [author]
   name = "Jackson Chou"
   bio = "Super bio with markdown support **COOL**"
-  job = "Your job title"
+  job = "Analyst"
   location = "San Francisco, CA"
   # Overwritten by your gravatar image if `author.gravatarEmail` is filled
   picture = "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/1/000/032/3e8/0163928.jpg"
@@ -49,12 +48,24 @@ canonifyurls = true
   url = "/"
 [[menu.main]]
   weight = 2
+  identifier = "about"
+  name = "About"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
+  url = "/aboutme"
+[[menu.main]]
+  weight = 3
+  identifier = "projects"
+  name = "Projects"
+  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-briefcase\"></i>"
+  url = "/projects/index.html"
+[[menu.main]]
+  weight = 4
   identifier = "categories"
   name = "Categories"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-bookmark\"></i>"
   url = "/categories"
 [[menu.main]]
-  weight = 3
+  weight = 5
   identifier = "tags"
   name = "Tags"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-tags\"></i>"
@@ -65,12 +76,7 @@ canonifyurls = true
 #  name = "Archives"
 #  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-archive\"></i>"
 #  url = "/archives"
-[[menu.main]]
-  weight = 3
-  identifier = "about"
-  name = "About"
-  pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/aboutme"
+
 
 
 [[menu.links]]
