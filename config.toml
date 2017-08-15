@@ -17,7 +17,6 @@ languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Jackson Chou"
 theme = "hugo-tranquilpeak-theme"
-disqusShortname = "hugo-tranquilpeak-theme"
 # googleAnalytics = "UA-123-45"
 paginate = 7
 canonifyurls = true
@@ -68,7 +67,7 @@ canonifyurls = true
   identifier = "about"
   name = "About"
   pre = "<i class=\"sidebar-button-icon fa fa-lg fa-question\"></i>"
-  url = "/about"
+  url = "/aboutme"
 
 
 [[menu.links]]
