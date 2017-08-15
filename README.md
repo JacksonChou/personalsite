@@ -1,2 +1,2 @@
 # personalsite
-Personal Blog / Site that showing my data science projects
+Personal Site showing the portfolio of data science projects I've worked on.

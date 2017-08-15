@@ -4,4 +4,4 @@ date: 2017-08-13T12:25:21-07:00
 draft: true
 ---
 
-This is a test for my first blog post.  I've created the website through with the {`r` blogdown} package.
+This is a test for my first blog post.  I've created the website through with the `blogdown` package.
