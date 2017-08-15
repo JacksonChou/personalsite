@@ -12,6 +12,9 @@
 # For developpers, if you modify this theme, put your images in `source/images` folder and
 # use grunt task `build` to synchronize assets
 
+[context.deploy-preview.environment]
+  HUGO_VERSION = "0.20"
+
 baseurl = "/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
