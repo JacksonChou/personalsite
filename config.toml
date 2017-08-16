@@ -1,6 +1,6 @@
 # Tranquilpeak
 # Version : 0.3.1-BETA
-# Author : Thibaud Leprêtre
+# Author : Jackson Chou
 
 # I STRONGLY recommend you to use a CDN to speed up loading of pages.
 # There is many free CDN like Cloudinary or you can also use indirectly
@@ -38,7 +38,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
   job = "Analyst"
   location = "San Francisco, CA"
   # Profile picture is from static folder
-  picture = "profileimage.jpg"
+  picture = "jackson.jpg"
 
 # Menu Configuration
 [[menu.main]]
