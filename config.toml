@@ -177,11 +177,13 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
   # customJS = ["js/foo.js"]
 
   #[params.header.rightLink]
-    #class = ""
-    #icon = ""
-    #url = "/aboutme"
+    class = ""
+    icon = ""
+    url = "/aboutme"
+    
+    
 
   # Customize link of author avatar in sidebar
-  [params.sidebar.profile]
-    url = "/aboutme"
+  #[params.sidebar.profile]
+    #url = "/aboutme"
 
