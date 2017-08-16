@@ -180,11 +180,11 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
   #[params.header.rightLink]
     class = ""
     icon = ""
-    url = "/aboutme
+    url = "/aboutme.html"
     
     
 
   # Customize link of author avatar in sidebar
   #[params.sidebar.profile]
-    #url = "/aboutme"
+    #url = "/aboutme.html"
 
