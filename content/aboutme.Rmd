@@ -1,5 +1,6 @@
 ---
 title: "About Me"
+output: html_document
 ---
 
 This site is a collection of my thoughts and projects on data science.  My goal is to continously improve and grow my data science skills by applying them to different datasets.
