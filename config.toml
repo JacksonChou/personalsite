@@ -13,7 +13,7 @@
 # use grunt task `build` to synchronize assets
 
 
-baseurl = "/"
+baseurl = "https://jacksonchou.netlify.com/"
 languageCode = "en-us"
 defaultContentLanguage = "en-us"
 title = "Jackson Chou"
@@ -34,7 +34,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
 [author]
   name = "Jackson Chou"
-  bio = "Interested in all things analytics""
+  bio = "Interested in all things analytics"
   job = "Analyst"
   location = "San Francisco, CA"
   # Profile picture is from static folder
@@ -180,11 +180,11 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
   #[params.header.rightLink]
     class = ""
     icon = ""
-    url = "/aboutme.html"
+    url = "/aboutme
     
     
 
   # Customize link of author avatar in sidebar
   #[params.sidebar.profile]
-    #url = "/aboutme.html"
+    #url = "/aboutme"
 
